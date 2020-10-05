@@ -49,7 +49,7 @@ releases:
   namespace: nginx
   values:
   - versionStream/charts/stable/nginx-ingress/values.yaml.gotmpl
-- chart: cdf/tekton-pipelines
+- chart: cdf/tekton-pipeline
   name: tekton-pipelines
   namespace: jx
 - chart: jenkins-x/lighthouse
